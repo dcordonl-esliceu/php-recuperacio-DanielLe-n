@@ -59,9 +59,12 @@ footer {
     margin-top: 2rem;
 }
 
-footer p {
-    color: rgb(173, 177, 233);
-    font-size: 1.6rem;
+.site-footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 1.2rem 0;
+    font-size: 1.4rem;
 }
 
 @media (min-width: 600px) {
@@ -72,6 +75,13 @@ footer p {
     .hero p {
         font-size: 3rem;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-top: 2rem;
 }
 
 @media (max-width: 400px) {

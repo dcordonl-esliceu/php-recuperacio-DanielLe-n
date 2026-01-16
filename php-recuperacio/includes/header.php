@@ -16,7 +16,7 @@
         <div>
             <a href="index.php">Home</a>
             <a href="alumnes.php">Alumnes</a>
-            <a href="afegir_alumne.php">Afegir_alumne</a>
+            <a href="afegir_alumnes.php">Afegir_alumne</a>
             <a href="galeria.php">Galeria</a>
         </div>
     </header>
