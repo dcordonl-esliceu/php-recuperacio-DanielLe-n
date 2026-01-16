@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ROOT */
+
+root {
+    --primary-color: #daa520;
+    --secondary-color: #ff8c00;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: 625;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #097c80;
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero {
+    background-image: url(/uploads/Hand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 2.4rem;
+    color: black;
+}
+
+.hero button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin-top: 20rem;
+    background-color: darkblue;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #097c80;
+    display: flex;
+    padding: 1rem 0;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+footer p {
+    color: rgb(173, 177, 233);
+    font-size: 1.6rem;
+}
+
+@media (min-width: 600px) {
+    .hero h1 {
+        font-size: 8rem;
+    }
+
+    .hero p {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;
+    }
+
+    header a {
+        font-size: 1.8rem;
+        margin: 0 1rem;
+    }
+}
